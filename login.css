@@ -1,0 +1,72 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+h1{
+    margin-left: 10%;
+}
+
+#loginBox{
+    width: 80%;
+    margin: auto;
+}
+#loginBox>input{
+    width: 90%;
+    padding: 8px;
+    margin-top: 10px;
+    color: #555;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+#loginBox>input:focus{
+    outline-color: #337AB7;
+    -moz-outline-radius: 4px;
+}
+#loginBox>p{
+    margin-top: 21px;
+    font-weight: bold;
+}
+#lowerloginBox{
+    width: 20%;
+    margin-left: 10%;
+    margin-top: 31px;
+}
+button{
+    padding: 10px;
+    border: 0px;
+    border-radius: 2px;
+    color: white;
+    padding: 10px 12px;
+    background-color: #5CB85C;
+    margin-top: 25px;
+    border-radius: 5px;
+}
+#signupa{
+    margin-top: 13px;
+}
+#logina{
+    margin-top: 5px;
+}
+#signupa>a{
+    text-decoration: none;
+    color:#337AB7;
+}
+#logina>a{
+    text-decoration: none;
+    color: #337AB7;
+}
+
+ul{
+    margin-left: 17%;
+    margin-top: 50px;
+    list-style-type: disc;
+}
+ul>li{
+    margin-top: 4px;
+}
+li>a{
+    text-decoration: none;
+    color: #337AB7;
+}
