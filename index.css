@@ -1,0 +1,84 @@
+body{
+    background-image: url(https://ideakart.com/assets/youridea-23d18c0fab7feb4d66e4c1dbc419428c71b2014ff742fc52b4006f6b65af6b67.jpg);
+    background-size: cover;
+    text-align: center;
+    font-size: 14px;
+}
+p{
+    margin-top: 10%;
+}
+#label_name{
+    width: 75%; 
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    font-style:bold;
+    margin-top: 2%;
+}
+#name{
+    height:40px;
+    width: 75%;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+}
+#name>input{
+    width:45%;
+    height:20px;
+    font-size: 11px;
+    padding: 5px 10px;
+    border: 0.1px solid;
+    border-color: grey;
+    border-radius:3px;
+}
+#label_cont{
+    width: 75%;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+}
+#cont{  
+    height:40px;
+    width: 75%;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+}
+#cont>input{
+    width:45%;
+    height:20px;
+    font-size: 12px;
+    padding: 5px 10px;
+    border: 0.1px solid;
+    border-color: grey;
+    border-radius:3px;
+}
+#msg{
+    width: 80%;
+    margin: auto;
+}
+#message{
+    padding-left: 13px;
+    font-size: 12px;
+    border: 0.1px solid;
+    border-color: grey;
+    margin-top: 5px;
+    padding-top: 10px;
+    border-radius: 3px;
+}
+button{
+    padding: 8px 10px;
+    background-color:#5cb85c;
+    color: white;
+    border:1px solid #5cb85c;
+    font-size: 12px;
+    margin-top: 5px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+button:hover{
+    background-color:#44ac44;
+    
+}
