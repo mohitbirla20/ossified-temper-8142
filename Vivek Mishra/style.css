@@ -1,0 +1,66 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    overflow-y: scroll;
+}
+#navbar{
+    margin: auto;
+    display: flex;
+    background-color: #2874f0;
+    justify-content: space-between;
+    padding: 8px 70px;
+    border-radius: 5px;
+}
+#navbar>div:first-child{
+    display: flex;
+    width: 50%;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 30px;
+}
+#navbar>div:first-child>h3>a{
+    color: yellow;
+    cursor: pointer;
+    font-weight: 400;
+    text-decoration: none;
+}
+#navbar>div:first-child>div{
+    width: 70%;
+    display: flex;
+    align-items: center;
+    margin-right: 35px;
+    border: 0.5px solid grey;
+}
+#navbar>div:first-child>div>input{
+    width: 85%;
+    padding:0px 10px;
+    height: 5vh;
+    outline: none;
+    border: none;
+    border-radius: 5px 0px 0px 5px;
+}
+#navbar>div:first-child>div>button{
+    height: 5vh;
+    padding: 0px 10px;
+    cursor: pointer;
+    border: none;
+    border-left: 0.5px solid gray;
+    border-radius:0px 5px 5px 0px;
+    background-color: white;
+}
+#navbar>div:last-child{
+    display: flex;
+    width: 25%;
+    margin-right: 30px;
+    justify-content: space-between;
+    align-items: center;
+    font-family: verdana, arial, helvetica, sans-serif;
+    color: white;
+    font-size: 13px;
+}
+#navbar>div:last-child>p{
+    cursor: pointer;
+}
