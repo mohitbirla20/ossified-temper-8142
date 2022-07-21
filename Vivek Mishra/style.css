@@ -64,3 +64,75 @@ body{
 #navbar>div:last-child>p{
     cursor: pointer;
 }
+
+#container{
+    width: 85%;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: auto;
+    gap: 30px;
+}
+#container>div{
+    border:1px solid #e1e1e1;
+    padding: 20px;
+    border-radius: 5px;
+    line-height: 25px;
+}
+#container>div>img{
+    width: 100%;
+}
+#container>div>div{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border-top: 1px solid #e1e1e1;
+}
+#container>div>div>div>p{
+    color: #6abfe0;
+    cursor: pointer;
+    font-size: 15px;
+}
+#container>div>h3{
+    font-size: 15px;
+    font-weight: 400;
+}
+
+#container>div>div>div>img{
+    width: 15px;
+}
+#container>div>div>div>p:hover{
+    text-decoration: underline;
+    color: black;
+}
+#container>div>div>div{
+    width: 50%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 15px;
+}
+#container>div>div>div:first-child{
+    border-right: 1px solid #e1e1e1;
+}
+
+#footer{
+    width: 80%;
+    margin: auto;
+    margin-bottom: 30px;
+}
+ul{
+    margin-left: 50px;
+    color: #6ebeec;
+    width:12%;
+}
+li:hover{
+    text-decoration: underline;
+    cursor: pointer;
+    color: grey;
+}
+#footer>h3{
+    font-weight: 200;
+}
