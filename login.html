@@ -4,18 +4,20 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Login Page</title>
     <link rel="stylesheet" href="login.css">
 </head>
 <body>
     <h1>Log in</h1>
    <!-- <label for="Email">Email</label> -->
-
+   <form id="LoginBox">
    <div id="loginBox">
    <p>Email</p>
-   <input type="email" placeholder="Enter your Email">
+   <input type="email" id="email" placeholder="Enter your Email">
    <p>Password</p>
    <input type="password" id="password" placeholder="password">
+   <i id="showbtn"><span id="show" class="material-symbols-sharp">visibility</span></i>
+
    </div>
 
 
@@ -23,7 +25,7 @@
   <input type="checkbox">
   <span>Remember me</span> 
   <div>
-  <button id="loginBtn">Log in</button>
+  <button id="btn">Log in</button>
   </div>
   <div id="signupa">
   <a href="">Sign up</a>
@@ -34,6 +36,7 @@
 
     </div>
 </div>
+   </form>
 
 
 
@@ -52,3 +55,6 @@
 
 </body>
 </html>
+<script src="login.js"></script>
+
+    </html>
