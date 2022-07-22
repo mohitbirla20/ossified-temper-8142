@@ -38,6 +38,15 @@ let displayBooks = (data) => {
     icon2.src = "list.png";
     let div2 = document.createElement("div");
     let div3 = document.createElement("div");
+    image.addEventListener("click", function () {
+      addtoCart(elem);
+    });
+    p1.addEventListener("click", function () {
+      addtoCart(elem);
+    });
+    p2.addEventListener("click", function () {
+      addtoCart(elem);
+    });
     div2.append(icon1, p1);
     div3.append(icon2, p2);
     div1.append(div2, div3);
@@ -62,6 +71,5 @@ let SearchResult = () => {
       .catch((err) => {
         console.log(err);
       });
-      localStorage.setItem("search", query);
   }
 };
