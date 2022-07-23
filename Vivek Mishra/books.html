@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ideacart.com/books</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="books.css">
+  </head>
+  <body>
+    <div id="navbar">
+      <div>
+        <h3><a href="index.html">IDEAKART</a></h3>
+        <div>
+          <input
+            onSearch="SearchResult()"
+            id="query"
+            type="search"
+            placeholder="Search"
+          />
+          <button onclick="SearchResult()">Search</button>
+        </div>
+      </div>
+      <div>
+        <p>About</p>
+        <p>Contact</p>
+        <p>Sign In</p>
+        <p>Sign Up</p>
+      </div>
+    </div>
+    <div id="main">
+      <div>
+        <div id="image"></div>
+        <p>Buy it at best price from here</p>
+        <div class="price">
+          <h2 id="price"></h2>
+          <button id="button">Buy Now</button>
+        </div>
+        <p class="para">
+          <a href="#"
+            >Get Instant Cashback when you pay using Amazon Pay... Click Here</a
+          >
+        </p>
+      </div>
+      <div>
+        <h1 id="Title"></h1>
+        <div id="dis"></div>
+        <div>
+          <p>Store</p>
+          <p>Price</p>
+          <p>Buy Now</p>
+        </div>
+        <div id="last">
+          <p>Amazon, Paperback</p>
+          <p id="price1"></p>
+          <button id="button1">Buy Now</button>
+        </div>
+      </div>
+    </div>
+    <div id="table">
+      <h1>Book Specification</h1>
+      <div class="Border">
+        <h4>Binding</h4>
+        <p id="bind">Paperback</p>
+      </div>
+      <div>
+        <h4>Language</h4>
+        <p id="lang"></p>
+      </div>
+      <div class="Border">
+        <h4>Number Of Pages</h4>
+        <p id="page"></p>
+      </div>
+      <div>
+        <h4>Author</h4>
+        <p id="auth"></p>
+      </div>
+      <div class="Border">
+        <h4>Publisher</h4>
+        <p id="publish"></p>
+      </div>
+      <div>
+        <h4>Isbn-10</h4>
+        <p id="isbn1"></p>
+      </div>
+      <div class="Border">
+        <h4>Isbn-13</h4>
+        <p id="isbn2"></p>
+      </div>
+      <div>
+        <h4>Dimension</h4>
+        <p>12.7*0.79*20.29</p>
+      </div>
+    </div>
+    <h1 style="margin-left: 7%; font-weight: 100">Top Reads</h1>
+    <div id="container"></div>
+    <div id="footer">
+      <h3>Get To Know Us</h3>
+      <ul>
+        <li>About</li>
+        <li>Contact</li>
+        <li>Search</li>
+        <li>Privacy Policy</li>
+        <li>Refund Policy</li>
+        <li>Earn Money Online</li>
+        <li>QuickBuyer</li>
+      </ul>
+    </div>
+  </body>
+  <script src="./books.js"></script>
+</html>
+

@@ -1,0 +1,36 @@
+#container1 {
+        width: 85%;
+        margin: auto;
+        margin-top: 10px;
+        margin-bottom: 100px;
+      }
+      #container1 > div {
+        margin-bottom: 40px;
+        border: 1px solid #e1e1e1;
+        padding: 10px 30px;
+        color: #6ebeec;
+      }
+      #container1 > div > img {
+        width: 200px;
+        margin-top: 20px;
+      }
+      #container1 > div>h3{
+        color: #397ab7;
+      }
+      #results {
+        text-align: center;
+        margin-top: 20px;
+        font-weight: 100;
+        font-size: 35px;
+      }
+      .second {
+        width: 85%;
+        height: 5vh;
+        margin: auto;
+        margin-left: 7.5%;
+        margin-top: 25px;
+        border: 1px solid #e1e1e1;
+        outline: none;
+        padding: 0px 15px;
+        border-radius: 5px;
+      }
