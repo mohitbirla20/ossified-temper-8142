@@ -7,13 +7,26 @@ let displayData = (data) => {
   data.forEach((elem) => {
     let div = document.createElement("div");
     let h3 = document.createElement("h3");
+    h3.style.cursor = "pointer";
+    h3.addEventListener("click", function () {
+      Cart(elem);
+    });
     let image = document.createElement("img");
+    image.style.cursor = "pointer";
+    image.addEventListener("click", function () {
+      Cart(elem);
+    });
     image.src =
       elem.volumeInfo.imageLinks && elem.volumeInfo.imageLinks.smallThumbnail;
     h3.innerText = elem.volumeInfo.title;
     div.append(h3, image);
     container.append(div);
   });
+};
+
+let Cart = (elem) => {
+  localStorage.setItem("clicked", JSON.stringify(elem));
+  window.location.href = "books.html";
 };
 
 displayData(search);

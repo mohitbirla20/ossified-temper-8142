@@ -73,3 +73,8 @@ let SearchResult = () => {
       });
   }
 };
+
+let addtoCart = (elem) => {
+  localStorage.setItem("clicked", JSON.stringify(elem));
+  window.location.href = "books.html";
+};
